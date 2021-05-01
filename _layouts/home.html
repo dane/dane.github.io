@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<ol>
+  {%- for post in site.posts -%}
+    <li>
+      <article>
+        <div class="container">
+          <time>{{ post.date | date: site.date_format }}</time>
+          <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+          {{ post.excerpt }}
+        </article>
+    </li>
+  {%- endfor -%}
+</ol>

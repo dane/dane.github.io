@@ -1,0 +1,14 @@
+<header>
+  <div class="container">
+    <a href="/" title="{{ site.title }}">{{ site.title }}</a>
+    <nav>
+      <ul>
+        {%- for page in site.pages -%}
+          {%- if page.navigation -%}
+            <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
+</header>

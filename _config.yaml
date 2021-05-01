@@ -1,0 +1,31 @@
+title: Dane Harrigan
+url: https://dane.github.io
+tagline: An amalgamation of software practices and collaboration.
+description: Engineering for HashiCorp, previously Heroku.
+permalink: /articles/:title
+page_excerpts: true
+excerpt_separator: "\n\n\n\n"
+
+date_format: "%b %-d, %Y"
+google_analytics: "G-324GSPR1JQ"
+
+author:
+  name: Dane Harrigan
+
+description: >
+  A collection of my thoughts regarding software development, experiments, 
+  team collaboration, and anything else I can think of.
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+social:
+  twitter: daneharrigan
+  github: dane 
+  instagram: daneharrigan
+  linkedin: dane-harrigan-401077196
