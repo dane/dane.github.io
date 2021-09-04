@@ -1,5 +1,6 @@
 ---
 layout: post
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -8,6 +9,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 <figure class="wide">
+  <iframe width="800" height="400" src="https://www.youtube.com/embed/ODd2O8dNgO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <img src="https://dummyimage.com/800x400/000/fff.png">
   <figcaption>
     After careful tuning, Things’ design and layout look great on macOS
