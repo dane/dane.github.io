@@ -5,37 +5,51 @@ body, ul, ol, li, h1, h2, h3, h4, p, figure, blockquote {
 
 html {
   overflow-y: scroll;
+  background: #f8f9f9; 
 }
 
-body > ol {
+main > ol {
   list-style: none;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 18px;
-  color: rgb(38,52,74); 
+  color: #4F5660; 
 }
 
-body > ol > li {
+main > ol > li {
   margin-bottom: 80px;
 }
 
-body > ol > li:last-child {
+main > ol > li:last-child {
   margin-bottom: 0;
+}
+
+header, main {
+  background: #FFFFFF;
 }
 
 header {
   padding: 0 20px;
 }
 
+main {
+  padding: 20px 0;
+  display: block;
+}
+
 h1, h2, h3, p, figure, time, article ul, article ol, blockquote, table {
   margin-bottom: 20px;
 }
 
+h1, h2, h3, h4, header, footer, time, figure {
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+
 h1, h2, h3, h4 {
-  font-weight: 400;
-  font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
 h1 {
@@ -58,7 +72,6 @@ h3 {
 
 h4 {
   font-size: 1rem;
-  font-weight: 400;
 }
 
 p {
@@ -66,7 +79,7 @@ p {
 }
 
 a:link, a:visited {
-  color: rgb(227, 35, 43);
+  color: #5865F2;
   text-decoration: none;
 }
 
@@ -75,7 +88,7 @@ a:active, a:hover {
 }
 
 code {
-  background: rgba(38,52,74,.09); 
+  background: #F2F3F5; 
   font-family: 'Source Code Pro', monospace;
   font-size: 0.98rem;
 }
@@ -118,19 +131,21 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
+.container, .clear {
+  clear: both;
+}
+
 .container, figcaption {
   max-width: 700px;
   margin: 0 auto;
 }
 
 header .container {
-  border-bottom: 1px solid rgba(38,52,74,.15); 
+  border-bottom: 2px solid #EDEDED; 
   padding: 15px 0;
-  margin-bottom: 20px;
 }
 
 footer .container {
-  border-top: 1px solid rgba(38,52,74,.15); 
   padding: 15px 0;
   margin: 40px auto;
 }
@@ -146,7 +161,7 @@ footer nav svg {
   height: 30px;
   width: 30px;
   opacity: 0.4;
-  fill: rgb(227, 35, 43);
+  fill: #5865F2;
 }
 
 footer nav a:hover svg,
@@ -169,10 +184,6 @@ header nav li,
 footer nav li {
   display: inline-block;
   margin-right: 30px;
-}
-
-header, footer, time, figure {
-  font-family: 'Roboto', sans-serif;
 }
 
 time {
@@ -234,6 +245,20 @@ td:last-child {
 
 tr:nth-child(even) td {
   background: rgba(38,52,74,.025); 
+}
+
+.avatar {
+  float: left;
+  width: 280px;
+  height: 280px;
+  border-radius: 140px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 750px) {
