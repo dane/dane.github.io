@@ -9,7 +9,16 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 <figure class="wide">
-  <iframe width="800" height="400" src="https://www.youtube.com/embed/ODd2O8dNgO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="video">
+    <iframe width="800" height="400" src="https://www.youtube.com/embed/ODd2O8dNgO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <figcaption>
+    After careful tuning, Things’ design and layout look great on macOS
+    Big Sur. It also comes with a beautiful new icon for your dock.
+  </figcaption>
+</figure>
+
+<figure class="wide">
   <img src="https://dummyimage.com/800x400/000/fff.png">
   <figcaption>
     After careful tuning, Things’ design and layout look great on macOS

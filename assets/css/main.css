@@ -109,9 +109,22 @@ pre code, figure {
   margin-right: -50px;
 }
 
-figure {
+figcaption {
   font-size: 0.9rem;
   font-style: italic;
+}
+figure .video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+figure iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 blockquote {
@@ -296,6 +309,7 @@ tr:nth-child(even) td {
 
   figure img {
     width: 100%;
+    height: auto;
   }
 
   footer {
@@ -309,5 +323,10 @@ tr:nth-child(even) td {
 
   footer nav {
     float: none;
+  }
+
+  .avatar {
+    float: none;
+    margin: 0 auto 20px;
   }
 }
