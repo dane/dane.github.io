@@ -4,7 +4,7 @@ tagline: An amalgamation of software practices and collaboration.
 description: Engineering for HashiCorp, previously Heroku.
 permalink: /articles/:title
 page_excerpts: true
-excerpt_separator: "\n\n\n\n"
+excerpt_separator: "<!-- more -->"
 
 date_format: "%b %-d, %Y"
 google_analytics: "G-324GSPR1JQ"
