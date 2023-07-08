@@ -1,0 +1,17 @@
+---
+baseURL: 'https://daneharrigan.com'
+languageCode: 'en-us'
+title: 'Dane Harrigan'
+theme: 'mini'
+
+disableKinds:
+  - taxonomy
+  - term
+
+params:
+  github: 'https://github.com/dane'
+  mastodon: 'https://mastodon.social/@daneharrigan'
+  footer: |-
+    Thank you for reading an entry in my collection of posts regarding software
+    development, experimentation, team collaboration, and anything else I
+    may want to share.
