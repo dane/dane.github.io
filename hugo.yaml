@@ -3,6 +3,7 @@ baseURL: 'https://daneharrigan.com'
 languageCode: 'en-us'
 title: 'Dane Harrigan'
 theme: 'mini'
+googleAnalytics: 'G-324GSPR1JQ'
 
 disableKinds:
   - taxonomy
@@ -15,4 +16,3 @@ params:
     Thank you for reading an entry in my collection of posts regarding software
     development, experimentation, team collaboration, and anything else I
     may want to share.
-  gtag: G-324GSPR1JQ
