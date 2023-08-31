@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mount -a
+
 apt install -y cryptsetup-initramfs
 
 echo "KEYFILE_PATTERN=/etc/luks/*.keyfile" >> /etc/cryptsetup-initramfs/conf-hook 
