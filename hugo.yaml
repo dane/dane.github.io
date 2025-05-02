@@ -3,7 +3,9 @@ baseURL: 'https://daneharrigan.com'
 languageCode: 'en-us'
 title: 'Dane Harrigan'
 theme: 'mini'
-googleAnalytics: 'G-324GSPR1JQ'
+services:
+  googleAnalytics:
+    id: 'G-324GSPR1JQ'
 
 disableKinds:
   - taxonomy
