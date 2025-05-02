@@ -1,7 +1,9 @@
 ---
 title: "Log For Humans and Machines"
 publishDate: 2013-09-24
-description: Lol.
+description: |
+  Application logs should be useful and understood by the humans that read them
+  and the machines that consume them.
 ---
 
 Logging is one of the easiest ways for an application to communicate information
