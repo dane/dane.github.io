@@ -43,7 +43,7 @@ For example, if I wanted to use tab completion to build the path
 
 ```
 $ export CDPATH=$CDPATH:~/Projects/src
-$ set -A complete_git_1 -- github.com/dane/foo
+$ set -A complete_cd_1 -- github.com/dane/foo
 $ cd git<TAB>
 ```
 
