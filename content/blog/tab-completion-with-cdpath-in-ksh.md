@@ -35,7 +35,7 @@ a built-in means of creating tab completions in `ksh` for any command, but you
 must declare all possible values that can be completed. This is done with:
 
 ```
-$ set -A complete_{COMMAND}_{UNIQUE_NUMBER} -- {VALUES}
+$ set -A complete_{COMMAND}_{ARG_COUNT} -- {VALUES}
 ```
 
 For example, if I wanted to use tab completion to build the path
